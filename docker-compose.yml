@@ -1,13 +1,13 @@
 version: "latest"
 services:
-  flashpaper:
-    image: polarflare
+  polarflare:
+    image: ghcr.io/polarnova/polarflare:latest
     container_name: polarflare
     restart: always
     volumes:
-      - './data:/var/www/html/data'
+      - './data:/var/www/html/data/polarflare'
     ports:
-      - '8080:80'
+      - '7321:80'
     environment:
       SITE_TITLE: "PolarFlare :: Self-Destructing Message"
       SITE_LOGO: "img/logo_pf.svg"
