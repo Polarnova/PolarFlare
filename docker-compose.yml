@@ -7,7 +7,7 @@ services:
     volumes:
       - './data:/var/www/html/data/polarflare'
     ports:
-      - '8081:80'
+      - '7321:80'
     environment:
       SITE_TITLE: "PolarFlare :: Self-Destructing Message"
       SITE_LOGO: "img/logo_pf.svg"
