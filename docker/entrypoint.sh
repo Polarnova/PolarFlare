@@ -19,4 +19,4 @@ for i in 1 2 3; do
 done
 
 echo "Access logging is disabled for production use. Tailing error logs..."
-tail -f /var/log/nginx/error.log /var/log/php83/error.log
+tail -f /var/log/nginx/error.log /var/log/php84/error.log
