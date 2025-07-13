@@ -3,7 +3,7 @@
 # Start php-fpm and nginx
 chown -R nginx: /var/www/html/data/polarflare/
 touch /var/www/html/data/polarflare/index.php
-php-fpm83
+php-fpm84
 nginx -c /etc/nginx/nginx.conf
 
 # Ready to serve?

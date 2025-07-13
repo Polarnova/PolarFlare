@@ -31,7 +31,7 @@ https://flashpaper.io
   ```
 
 ### Traditional
-  **Requirements:** PHP 7.0+ and a web server
+  **Requirements:** PHP 8.4+ and a web server
   1. Download and extract the [latest release](https://github.com/AndrewPaglusch/FlashPaper/releases/latest) of FlashPaper to the document root of your web server
   2. Copy `settings.example.php` to `settings.php` and make customizations to that file
   3. Disable access logging in your web server's configuration so nothing sensitive (IP addresses, user agent strings, timestamps, etc) are logged to disk
