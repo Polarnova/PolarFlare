@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <!-- 极地六边形背景 -->
+  <polygon points="50,5 90,27.5 90,72.5 50,95 10,72.5 10,27.5" stroke="none" fill="black"/>
+
+  <!-- 火焰图形（简化流线型） -->
+  <path d="M50 25 C60 40, 40 55, 50 70 C55 60, 65 50, 50 25 Z" fill="white"/>
+</svg>
