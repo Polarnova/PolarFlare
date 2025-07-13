@@ -19,6 +19,6 @@ RUN rm -rf /var/www/html/docker && \
     chown -R nginx:nginx /var/run/ && \
     chmod +x /entrypoint.sh
 
-VOLUME /var/www/html/data
+VOLUME /var/www/html/data/polarflare
 
 ENTRYPOINT ["/bin/ash", "/entrypoint.sh"]
